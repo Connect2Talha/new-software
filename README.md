@@ -1,3 +1,3 @@
 # lbu random game week 7 
 
-this is a single dice game 
+this is a simple  dice game 
