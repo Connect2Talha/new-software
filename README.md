@@ -14,5 +14,5 @@ in this game the computer thinks of a number between 17 and 29
 # Tell the User what the total is 
 # ask the user if they want to stop 
 # if the user wants to stop EXIST 
-# Display the Final Scores - Difference if within 5 , or "YOY LOOSE" 
+# Display the Final Scores - Difference if within 5 , or "YOu LOOSE" 
 
