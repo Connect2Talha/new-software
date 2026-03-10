@@ -24,12 +24,23 @@ if __name__ == '__main__':
 
      print(f'target number : {generate_target_number()}')
      print()
-     roll_dice()
-     print(f'target number : {generate_target_number()}')
-     print()
 
 
-     def generate_target_number(lower_limit=1, upper_limit=29):
-      return randint(lower_limit, upper_limit)
-     generate_target_number()
-     print(f'target number : {generate_target_number()}')
+     total=0
+
+
+    while True:
+
+
+    this_roll = roll_dice()
+
+    total += this_roll
+
+     print(f'you rolled {this_roll}). your total is {total}.')
+
+     again = input('do you want to roll again? (y/n) ')
+     if again == 'n':
+
+     break
+
+
